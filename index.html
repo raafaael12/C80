@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <script src="main.js"></script>
+    <title>Lista de alunos</title>
+</head>
+<body>
+    <center>
+    <h3>Lista de Alunos</h3>
+    <div id="rows">
+        1<input type="text" placeholder="Nome do Aluno" id="NomeDoEstudante1">
+        2<input type="text" placeholder="Nome do Aluno" id="NomeDoEstudante2">
+        3<input type="text" placeholder="Nome do Aluno" id="NomeDoEstudante3">
+        4<input type="text" placeholder="Nome do Aluno" id="NomeDoEstudante4">
+    </div>
+    <button onclick="submit()" id="submitButton" style="font-weight: bold">
+        Enviar
+    </button>
+    <div id="displayNameWithCommas">
+
+    </div>
+    <hr>
+    <div id="displayNameWithoutCommas">
+
+    </div>
+    <button onclick="sorting()" id="sortingButton" style="font-weight: bold">
+        Organizar
+    </button>
+</center>
+</body>
+</html>
